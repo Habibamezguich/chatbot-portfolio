@@ -97,15 +97,13 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Developed by Habiba Mezguich with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH and it's <a href='https://github.com/Habibamezguich/chatbot-portfolio' target='_blank'><strong>open source</strong></a>!<br><br>👨🏻‍💻 Developed by Habiba Mezguich with ❤️</span>");
             break;
    
         case "projects":
             sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Habibamezguich'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
-        case "new":
-            sendTextMessage('addressString');
-            break;
+            
         default:
             setTimeout(() => {
                 sendTextMessage("Hey I couldn't catch you...😢<br>Send 'help' to know more about usage.");
