@@ -57,7 +57,7 @@ nav{
     overflow-y: scroll;
     color: #fff;
     display: flex;
-    height: 86%;
+    height: 84%;
     flex-direction: column;
     background-image: url('images/BGG.png');
     align-items: flex-end;
