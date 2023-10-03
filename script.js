@@ -1,5 +1,5 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var resumeString = "<a href='https://drive.google.com/file/d/1RmZqZhve7jeb1iW9ycX_aJItGahFv3IQ/view' target='_blank' style='color: white;'>Click here to open CV</a>";
+var resumeString = "<a href='https://drive.google.com/file/d/1tIHmJqIB8lLlrfBBOH6S7IO5acgeXBkv/view?usp=sharing' target='_blank' style='color: white;'>Click here to open CV</a>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238.63833262443757!2d74.19014864534314!3d16.865338763272877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1a7dcf40f5dd7%3A0xd7b69fe1fcfa9877!2zMTbCsDUxJzU1LjQiTiA3NMKwMTEnMjUuMyJF!5e0!3m2!1sen!2sin!4v1645079906766!5m2!1sen!2sin' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
 function startFunction() {
     setLastSeen();
